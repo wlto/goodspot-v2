@@ -7,7 +7,7 @@ export default class Search extends Component {
   constructor(props){
     super(props);
     this.state = {
-      userInput: ''
+      userInput: '4800 Yonge Street'
     };
   }
 
