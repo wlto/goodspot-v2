@@ -1,0 +1,45 @@
+.BookingForm {
+    width: 60%;
+    margin: 80px auto 60px auto;
+}
+
+
+.BookingForm .form-row td {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.BookingForm .form-row label {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.BookingForm .form-row input {
+    border: none;
+    padding: 12px 30px;
+    outline: none;
+    box-shadow: 0px 1px 1px 0px #d2d2d2;
+    transition: all 250ms ease-in-out;
+}
+
+.BookingForm .form-row input:focus {
+    box-shadow: 0px 2px 8px 2px #e2e2e2;
+}
+
+.BookingForm .form-submit {
+    background-color: #49D49D;
+    color: #3A5743;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px 1px #d0d0d0;
+    transition: all 250ms ease-in-out;
+}
+
+.BookingForm .form-submit:hover {
+    box-shadow: 0px 2px 4px 2px #e2e2e2;
+}

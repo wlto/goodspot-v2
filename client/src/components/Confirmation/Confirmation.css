@@ -1,0 +1,28 @@
+.Confirmation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.Confirmation .container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.Confirmation p {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.Confirmation p span {
+    color: #FBACBE;
+}
+
+.Confirmation .back-to-home {
+    text-decoration: underline;
+    color: #49D49D;
+}

@@ -1,0 +1,27 @@
+.PostingList {
+    padding-top: 100px;
+}
+
+.PostingList .user-address {
+    text-align: center;
+}
+
+.PostingList .list-filter {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.PostingList ul {
+    list-style-type: none;
+}
+
+.PostingList .posting {
+    display: block;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 48px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 1px #d2d2d2;
+    text-decoration: none;
+    color: #242424;
+}

@@ -90,10 +90,10 @@ app.post('/testdistance', (req, res) => {
             destinationObjs.push(element);
         }, this);
 
-        // console.log(dist)
+        // console.log(destinationObjs)
         distance.matrix([userAddress], destinations, (err, distances) => {
             if (!err) {
-                // console.log(distances.rows[0].elements);
+                console.log(distances);
                 // if (distances.rows[0].elements.length > 0) {
                     distances.rows[0].elements.forEach((ele, i)=>{
                         try {
