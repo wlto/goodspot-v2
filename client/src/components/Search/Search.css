@@ -11,6 +11,11 @@
 
 }
 
+.Search-repo-link {
+    opacity: 0.4;
+    padding-top: 2%;
+}
+
 .Search .search-box input {
     padding: 12px 30px;
     outline: none;

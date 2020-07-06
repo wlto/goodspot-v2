@@ -38,6 +38,9 @@ export default class Search extends Component {
             Search
           </Link>
         </div>
+        <p className="Search-repo-link">Repository link: &nbsp;
+          <a href="https://github.com/wlto/goodspot-v2" target="_blank">GitHub</a>
+        </p>
       </div>
     )
   }
